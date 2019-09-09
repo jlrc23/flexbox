@@ -70,4 +70,11 @@ body * + * {
 
 .column-sidebar {
   flex: 33.33%;
+  display: flex;
+  flex-direction: column;
 }
+
+.column-sidebar > .tile{
+    flex: 1;
+}
+
